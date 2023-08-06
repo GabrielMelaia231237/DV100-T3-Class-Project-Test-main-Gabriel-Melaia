@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plant Shop</title>
+
+    <!-- Style Sheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+
+    <!-- ------------------------------------------------------------------------------------------------ -->
+    <!-- Nav Bar -->
+
+    <nav class="navbar fixed-top">
+      <div class="container">
+        
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="assets/Logo.svg" alt="Logo" height="32">
+        </a>
+
+        <!-- Nav Items -->
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="browse.html">Browse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="wishlist.html">Wishlist</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- ------------------------------------------------------------------------------------------------ -->
+    <!-- Carousel -->
+
+    <div id="carouselExample" class="carousel carousel-dark slide">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row full-height">
+              <div class="col align-self-center">
+                <h1>Elevate Your Environment with Everlasting Beauty</h1>
+                <a class="mt-4 button-style" href="browse.html">Browse Plants</a>
+              </div>
+              <div class="col align-self-end">
+                <img src="assets/hero-image.png" class="hero-image" id="hero-image">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item full-height">
+          <p></p>
+
+          <br>
+          <br>
+          
+          <div class="accordion">
+            <div class="accordion-item">
+              <img src="assets/About us plant.jpg"  class="about-plant">
+              <input type="checkbox" id="acc-item-1" class="accordion-checkbox">
+              <label class="accordion-title" for="acc-item-1">About us</label>
+              <div class="accordion-content">
+                <p>Here is some content to show what we do </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <img src="assets/contact plant.png"  class="about-plant">
+              <input type="checkbox" id="acc-item-2" class="accordion-checkbox">
+              <label class="accordion-title" for="acc-item-2">How to contact us</label>
+              <div class="accordion-content">
+                <p>Here is some content to show how someone can contact us</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <img src="assets/location plant.png"  class="about-plant">
+              <input type="checkbox" id="acc-item-3" class="accordion-checkbox">
+              <label class="accordion-title" for="acc-item-3">Where we grow our plants</label>
+              <div class="accordion-content">
+                <p>Here is some content to show what we do with our plants and how well they are treated</p>
+              </div>
+            </div>
+          </div>
+          
+          
+
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+  </body>
+</html>
